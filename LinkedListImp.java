@@ -6,7 +6,7 @@ package DSA;
 
 /**
  *
- * @author Saubali
+ * @author Sujan
  */
 import java.util.*;
 public class LinkedListImp {
@@ -61,6 +61,7 @@ public class LinkedListImp {
         insertVal(6);
         insertVal(7);
         insertVal(8);
+        insertVal(87);
         int exit=0;
         Scanner sc=new Scanner(System.in);
         do{
