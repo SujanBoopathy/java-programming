@@ -6,10 +6,11 @@ package Abstraction;
 
 /**
  *
- * @author Saubali
+ * @author Sujan
  */
 abstract class Base3{
     //Cannot override this method
+    @Override
     final void fun(){
         System.out.println("final fun() method ");
     }
