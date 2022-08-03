@@ -17,7 +17,7 @@ public class QueueImp {
             System.out.println("Menu : \n1.LinkedListQueue \n2.PriorityQueue");
             int choice=sc.nextInt();
             if(choice==1){
-                Queue<String> q=new LinkedList<>();
+                Queue<String> q=new LinkedList<String>();
 
                 System.out.println("Enter 5 element :");
                 for(int i=0;i<5;i++){
@@ -34,7 +34,7 @@ public class QueueImp {
 
             }
             else{
-                Queue<String> q=new PriorityQueue<>();
+                Queue<String> q=new PriorityQueue<String>();
 
                 System.out.println("Enter 5 element :");
                 for(int i=0;i<5;i++){
