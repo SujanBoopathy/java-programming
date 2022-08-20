@@ -12,6 +12,9 @@ abstract class Base4{
     static void fun(){
         System.out.println("static Fun() method ");
     }
+    static int perform(int a ,int b){
+        return a+b;
+    }
 }
 public class MainFour extends Base4{
     public static void main(String args[]){
