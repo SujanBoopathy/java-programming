@@ -6,7 +6,7 @@ package DSA;
 
 /**
  *
- * @author Saubali
+ * @author Sujan Boopathy
  */
 import java.util.*;
 public class StackImp {
