@@ -6,7 +6,7 @@ package BinarySearchTree;
 
 /**
  *
- * @author Saubali
+ * @author Sujan
  */
 public class BST {
     class Node{
